@@ -9,7 +9,7 @@ import { Toaster } from './components/ui/toaster'
 
 const App = () => {
   return (
-    <>
+    <div className='overflow-x-hidden'>
       <Header />
       <Showcase />
       <Tabs />
@@ -18,7 +18,7 @@ const App = () => {
       <Subscribe />
       <Toaster />
       <Footer />
-    </>
+    </div>
   )
 }
 
