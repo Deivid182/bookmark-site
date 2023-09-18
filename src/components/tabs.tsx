@@ -33,7 +33,7 @@ const data = [
 const Tabs = () => {
 
 
-  const [tabs, setTabs] = useState(data)
+  const [tabs] = useState(data)
   const [value, setValue] = useState(0)
 
   const { title, desc, link, image } = tabs[value]
