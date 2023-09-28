@@ -7,7 +7,7 @@ const Showcase = () => {
       <Container>
         <div className='flex flex-col-reverse items-center lg:flex-row gap-8'>
           <article className='flex-1 h-full space-y-4 max-lg:px-4 flex flex-col items-center'>
-            <h2 className='capitalize font-medium text-2xl lg:text-4xl max-lg:text-center'>
+            <h2 className='capitalize font-medium text-2xl lg:text-5xl max-lg:text-center'>
               A simple bookmark manager
             </h2>
             <p className='text-muted-foreground max-lg:text-center leading-8'>
